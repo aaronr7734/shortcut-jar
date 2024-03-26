@@ -68,7 +68,7 @@ This one doesn't really need a section of its own, especially because the Shortc
 There are currently two Shortcuts. Both will be described and are accompanied by download links. You'll want to click on the download links with a device that already has the Shortcuts app installed. Clicking the link from Google Chrome on your windows laptop unfortunately won't work.
 
 After clicking the link, you'll be asked if you want to add them to Shortcuts. After adding them, you'll be walked through a bunch of set up questions.\
-If you're already sick of setting things up, no worries!  The only required question is the first one which asks for your API key. Fill that in then press "Skip setup." You can always come back to the other questions later.
+If you're already sick of setting things up, no worries! The only required question is the first one which asks for your API key. Fill that in then press "Skip setup." You can always come back to the other questions later.
 
 #### Describe Screenshot
 
@@ -151,7 +151,7 @@ When in the reply field, you can enter the command `/save` to save the photo to 
 
 #### Adding Additional Photos
 
-Sometimes, you may want to take a second picture to include with a reply, for example, if GPT-4 had trouble interpreting the first image you sent.  to do so, type `/add` anywhere in a reply. Once you finish typing the rest of your reply and hit "done," you'll be prompted to take the next photo.
+Sometimes, you may want to take a second picture to include with a reply, for example, if GPT-4 had trouble interpreting the first image you sent. to do so, type `/add` anywhere in a reply. Once you finish typing the rest of your reply and hit "done," you'll be prompted to take the next photo.
 
 **Notes**:
 
@@ -172,7 +172,7 @@ To do this, do the following:
 3. Press customize. This should open System Settings and put you in the list of extensions that can be used as quick actions.
 4. Select Describe Photo.
 
-and that's it!  Now when you hit VO+Shift+M on an image in Finder, the quick actions menu will now show Describe Photo.
+and that's it! Now when you hit VO+Shift+M on an image in Finder, the quick actions menu will now show Describe Photo.
 
 #### Having Long Chats
 
@@ -209,14 +209,14 @@ If you would like to change some of your answers to the set up questions, do the
 ### On iOS
 
 1. Open the Shortcuts app.
-2. Find the shortcut you'd like to edit.  You may have to hit the back button and tap on "all shortcuts" before it shows up.
+2. Find the shortcut you'd like to edit. You may have to hit the back button and tap on "all shortcuts" before it shows up.
 3. Once you've found the shortcut, use the actions rotor (swipe up and down) and double tap on "edit"
 4. Tap "Info" on the bottom of your screen. It should be between "Redo" and "share."
 5. At the top of the info screen, you should see three tabs going left to right. Tap on Setup, which should be the third tab (furthest on the right.)
 6. Tap the "customize Shortcut" button, which should be near the top center of your screen.
    From here, you should be able to adjust your answers to questions.
 
-   **Note**: Some fields, like your API key field will appear blank in this set up screen.  You don't have to fill them in again as long as you've filled them in before.
+   **Note**: Some fields, like your API key field will appear blank in this set up screen. You don't have to fill them in again as long as you've filled them in before.
 
 ### On macOS
 
@@ -230,7 +230,7 @@ If you would like to change some of your answers to the set up questions, do the
 8. Now the "customize Shortcut" button should appear. VO+Right arrow a couple times till you find it and press it.
 9. Edit these fields as needed, then stop interacting with the scroll area and hit the "done" button.
 
-**Note**: Some fields, like your API key field will appear blank in this set up screen.  You don't have to fill them in again as long as you've filled them in before.
+**Note**: Some fields, like your API key field will appear blank in this set up screen. You don't have to fill them in again as long as you've filled them in before.
 
 ## Thanks
 
