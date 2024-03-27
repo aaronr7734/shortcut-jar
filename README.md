@@ -4,7 +4,7 @@ Welcome to the Describe Images repository! This project aims to provide two powe
 
 ## Why GitHub?
 
-I initially planned to host these shortcuts on RoutineHub, a popular platform for sharing Apple Shortcuts. However, I realized that RoutineHub requires users to create an account to download shortcuts, which might be an unnecessary barrier for those who only need to access these shortcuts and not interested in other Shortcuts the site has to offer, so to ensure that the shortcuts are easily accessible to everyone, I decided to host them on GitHub instead.
+I initially planned to host these shortcuts on RoutineHub, a popular platform for sharing Apple Shortcuts. However, I realized that RoutineHub requires users to create an account to download shortcuts, and I don't feel comfortable forcing my users to create an account for a service just to download my Shortcuts.
 
 ## Shortcut Descriptions
 
