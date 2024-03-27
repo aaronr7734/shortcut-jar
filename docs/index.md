@@ -127,6 +127,8 @@ Both shortcuts are nearly identical in their usage but I'm including separate se
 
 ### Using Describe Photo
 
+On iOS:
+
 1. Use the assigned gesture or keyboard shortcut to activate the shortcut.
 2. You'll be prompted to take a photo, go ahead and do so. then tap "use photo" when you're satisfied with what you took. A text box will appear asking you to include an optional question.
 3. Tap "Done" or press Enter on the question field.
@@ -186,6 +188,8 @@ If you intend to have long chats (more than 3-5 messages) on iOS you should do t
 If you don't enable that setting, the Shortcuts app will stop the shortcut after a few messages because it will think you're sending large amounts of data.
 
 ### Using Describe Screenshot
+
+On iOS:
 
 1. Ensure that screen curtain is off.
 2. Use the assigned gesture or keyboard shortcut to activate the shortcut.
