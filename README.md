@@ -1,6 +1,6 @@
 # Describe Images: AI-Powered Image Descriptions
 
-Welcome to the Describe Images repository! This project aims to provide two powerful Apple Shortcuts, "Describe Screenshot" and "Describe Photo," which use OpenAI's GPT-4-Vision to generate detailed descriptions of screenshots and photos. These shortcuts are designed with accessibility in mind, particularly for VoiceOver users, but can be beneficial for anyone looking to quickly understand the content of images.
+Welcome to the Describe Images repository! This project aims to provide two powerful Apple Shortcuts, "Describe Screenshot" and "Describe Photo," which use OpenAI's GPT-4o to generate detailed descriptions of screenshots and photos. These shortcuts are designed with accessibility in mind, particularly for VoiceOver users, but can be beneficial for anyone looking to quickly understand the content of images.
 
 ## Why GitHub?
 
@@ -17,7 +17,7 @@ Describe Screenshot allows you to take a screenshot on your iPhone, iPad, or Mac
 Describe Photo works similarly to Describe Screenshot, but it allows you to either:
 
 1. Take a photo within the shortcut
-2. Share a photo with the shortcut with the share sheet (iOS, iPad OS and Vision OS) or quick actions (macOS.)
+2. Share one or more photos with the shortcut with the share sheet (iOS, iPad OS and Vision OS) or quick actions (macOS.)
 
 ## Getting Started
 
