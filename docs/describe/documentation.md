@@ -1,6 +1,6 @@
 ---
 title: Describe Images: AI-Powered Image Descriptions
-permalink: /describe/docs/
+
 ---
 
 # Describe Images: AI-Powered Image Descriptions
