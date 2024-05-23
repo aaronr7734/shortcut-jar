@@ -1,5 +1,6 @@
 ---
 title: Describe Images: AI-Powered Image Descriptions
+permalink: /describe/docs/
 ---
 
 # Describe Images: AI-Powered Image Descriptions
@@ -18,6 +19,7 @@ title: Describe Images: AI-Powered Image Descriptions
   - [Using Describe Photo](#using-describe-photo)
   - [Using Describe Screenshot](#using-describe-screenshot)
 - [Changing your answers to set up questions](#changing-your-answers-to-set-up-questions)
+- [Changelog](#changelog)
 - [Updating The Shortcuts](#updating-the-shortcuts)
 - [Thanks](#thanks)
 
@@ -25,8 +27,10 @@ title: Describe Images: AI-Powered Image Descriptions
 
 Already know what you're doing and would rather not read through this whole document? no worries! I won't get in your way!
 
-- [Download Describe Screenshot](https://www.icloud.com/shortcuts/4ccd91942d7e4d41ad9e7c3970b6fad0)
-- [Download Describe Photo](https://www.icloud.com/shortcuts/4dc4f4642f2a469bb159d09182174a61)
+- [Download Describe Screenshot](https://www.icloud.com/shortcuts/eca5fc921a14481295f0fef3b4617e2c)
+- [Download Describe Photo](https://www.icloud.com/shortcuts/365c2cabdec548d293073c2652236c38)
+
+Just here to check for updates? [Jump Straight To The Changelog!](#changelog)
 
 If you do have any questions down the road though, please start with this document. I've done my best to answer as much as I could and it's all organized into sections.
 
@@ -88,7 +92,7 @@ If you're already sick of setting things up, no worries! The only required quest
 
 Describe Screenshot allows you to take a screenshot on your iPhone, iPad, or Mac and within about 10 seconds, get a detailed description of its contents. This shortcut is particularly useful for VoiceOver users who may not be able to see the content of UI elements in inaccessible apps or games.
 
-Download Link: [Describe Screenshot](https://www.icloud.com/shortcuts/af56833cf5904e349688ec3a6696b6cf)
+Download Link: [Describe Screenshot](https://www.icloud.com/shortcuts/eca5fc921a14481295f0fef3b4617e2c)
 
 #### Describe Photo
 
@@ -98,7 +102,7 @@ Describe Photo works similarly to Describe Screenshot, but it allows you to eith
 2. Share one or more photos with the shortcut with the share sheet (iOS, iPad OS and Vision OS) or quick actions (macOS.)
 3. Grab the most recent photo from your camera roll, intended for Apple Vision Pro and other glasses or headsets.
 
-Download Link: [Describe Photo](https://www.icloud.com/shortcuts/ad970f82e7f24ffaa46032a17822efc8)
+Download Link: [Describe Photo](https://www.icloud.com/shortcuts/365c2cabdec548d293073c2652236c38)
 
 ### Integrate the shortcuts with VoiceOver
 
@@ -250,11 +254,15 @@ If you would like to change some of your answers to the set up questions, do the
 
 **Note**: Some fields, like your API key field will appear blank in this set up screen. You don't have to fill them in again as long as you've filled them in before.
 
-## Updates
+## Changelog
 
 All changes to each Shortcut will be documented here.
 
 ### 2024-05-22
+
+Download Links:
+- [Download Describe Screenshot](https://www.icloud.com/shortcuts/eca5fc921a14481295f0fef3b4617e2c)
+- [Download Describe Photo](https://www.icloud.com/shortcuts/365c2cabdec548d293073c2652236c38)
 
 #### Smarter and quicker AI responses!
 
