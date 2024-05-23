@@ -12,7 +12,7 @@ I'm very passionate about AI and how it can be used to improve our lives, so mos
 
 I currently have a pair of shortcuts that describe images and screenshots using OpenAI's impressive new [GPT-4o model.](https://openai.com/index/hello-gpt-4o/) These shortcuts are primarily intended for use by blind people, but they can be used by anyone who might find them helpful.
 
-If you would like to learn more about these Shortcuts, please visit the [Describe Images page.](documentation.md)
+If you would like to learn more about these Shortcuts, please visit the [Describe Images page.](describe/documentation.md)
 
 ## That's it?
 
