@@ -27,8 +27,8 @@ title: Describe Images: AI-Powered Image Descriptions
 
 Already know what you're doing and would rather not read through this whole document? no worries! I won't get in your way!
 
-- [Download Describe Screenshot](https://www.icloud.com/shortcuts/eca5fc921a14481295f0fef3b4617e2c)
-- [Download Describe Photo](https://www.icloud.com/shortcuts/365c2cabdec548d293073c2652236c38)
+- [Download Describe Screenshot](https://www.icloud.com/shortcuts/1729c507d8c144ffacbefdf6f9108c61)
+- [Download Describe Photo](https://www.icloud.com/shortcuts/733905244a6d4aa0bd77a46d3f83aae5)
 
 Just here to check for updates? [Jump Straight To The Changelog!](#changelog)
 
@@ -92,7 +92,7 @@ If you're already sick of setting things up, no worries! The only required quest
 
 Describe Screenshot allows you to take a screenshot on your iPhone, iPad, or Mac and within about 10 seconds, get a detailed description of its contents. This shortcut is particularly useful for VoiceOver users who may not be able to see the content of UI elements in inaccessible apps or games.
 
-Download Link: [Describe Screenshot](https://www.icloud.com/shortcuts/eca5fc921a14481295f0fef3b4617e2c)
+Download Link: [Describe Screenshot](https://www.icloud.com/shortcuts/1729c507d8c144ffacbefdf6f9108c61)
 
 #### Describe Photo
 
@@ -102,7 +102,7 @@ Describe Photo works similarly to Describe Screenshot, but it allows you to eith
 2. Share one or more photos with the shortcut with the share sheet (iOS, iPad OS and Vision OS) or quick actions (macOS.)
 3. Grab the most recent photo from your camera roll, intended for Apple Vision Pro and other glasses or headsets.
 
-Download Link: [Describe Photo](https://www.icloud.com/shortcuts/365c2cabdec548d293073c2652236c38)
+Download Link: [Describe Photo](https://www.icloud.com/shortcuts/733905244a6d4aa0bd77a46d3f83aae5)
 
 ### Integrate the shortcuts with VoiceOver
 
@@ -257,6 +257,16 @@ If you would like to change some of your answers to the set up questions, do the
 ## Changelog
 
 All changes to each Shortcut will be documented here.
+
+### 2024-05-24
+
+Download Links:
+- [Download Describe Screenshot](https://www.icloud.com/shortcuts/1729c507d8c144ffacbefdf6f9108c61)
+- [Download Describe Photo](https://www.icloud.com/shortcuts/733905244a6d4aa0bd77a46d3f83aae5)
+
+#### Minor Bug Fix
+
+Fun fact: The Apple product line consists of more than just iPhones, Macs, and Vision Pros. Describe Photo and Describe Screenshot are now aware of the existence of iPads. Since iPads don't currently have Dynamic Islands, the Blind Dynamic Island user setting is ignored if the shortcut detects it's being run on an iPad.
 
 ### 2024-05-22
 
