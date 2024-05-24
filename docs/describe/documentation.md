@@ -71,7 +71,7 @@ If you already have an account set up with OpenAI and already have an API key yo
 1. Create an OpenAI account at [platform.openai.com](https://platform.openai.com). If you have a ChatGPT account, you can sign in with the same email address and password.
 
 2. Add a payment method and create a billing agreement at [platform.openai.com/account/billing](https://platform.openai.com/account/billing).
-   The minimum amount you can add to your account is $5, which should last for many descriptions (each description costs around 2 cents).
+   The minimum amount you can add to your account is $5, which should last for many descriptions (each description costs around 1 cent).
    Keep in mind that the form where you fill in your credit card details will automatically advance you to the next field after the one you're in has been filled.
    For example: If you're on the cvv field, you'll be pushed to the next field after typing the three numbers without having to hit tab.
 
