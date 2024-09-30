@@ -349,7 +349,7 @@ The dynamic island bug that required us to open the Shortcuts app to operate the
 
 #### One last thing!
 
-For those of you not using the alert box, the Quick Look view will now convert the AI's response to rich text. So if text is bold, italicized, or what have you, the box will correctly reflect that.
+For the two of you using the Quick Look view, it will now convert the AI's response to rich text. So if text is bold, italicized, or what have you, the box will correctly reflect that.
 
 ### 2024-09-17
 
