@@ -40,6 +40,10 @@ title: Describe Images: AI-Powered Image Descriptions
     - [On macOS](#on-macos)
   - [Updating The Shortcuts](#updating-the-shortcuts)
   - [Changelog](#changelog)
+    - [2024-09-29](#2024-09-29)
+      - [New model!](#new-model)
+      - [Apple Vanquished the Dreaded Bug!](#apple-vanquished-the-dreaded-bug)
+      - [One last thing!](#one-last-thing)
     - [2024-09-17](#2024-09-17)
       - [Faster, Cheaper, and more reliable!](#faster-cheaper-and-more-reliable)
       - [Sharing screenshots and photos](#sharing-screenshots-and-photos)
@@ -51,15 +55,14 @@ title: Describe Images: AI-Powered Image Descriptions
       - [Smarter and quicker AI responses!](#smarter-and-quicker-ai-responses)
       - [Share Multiple Images](#share-multiple-images)
       - [Where'd my description go?](#whered-my-description-go)
-  - [Updating The Shortcuts](#updating-the-shortcuts-1)
   - [Thanks](#thanks)
 
 ## Quick-start
 
 Already know what you're doing and would rather not read through this whole document? no worries! I won't get in your way!
 
-- [Download Describe Screenshot](https://www.icloud.com/shortcuts/01a99ff2108e4d1791ace2213eae47c3)
-- [Download Describe Photo](https://www.icloud.com/shortcuts/66587eb787194abf870d7929489c07ea)
+- [Download Describe Screenshot](https://www.icloud.com/shortcuts/f82fce2bbea54d92909d270127929fbe)
+- [Download Describe Photo](https://www.icloud.com/shortcuts/74ffbda2b0144be68f6c5404084a3ad9)
 
 Just here to check for updates? [Jump Straight To The Changelog!](#changelog)
 
@@ -83,13 +86,13 @@ Though Be My Eyes is an excellent free service that already exists to provide vi
 
 5. **Greater Control and Customization**: The Shortcuts offer more control over your interactions with the AI. For example, you can customize the AI's writing style, language, and other advanced parameters to better suit your needs and preferences. This level of customization is not available with Be My Eyes.
 
-On the other hand, using these Shortcuts is not free. Images will cost you around 0.5 cents per description, so if this is a concern for you, stick with Be My Eyes.
+On the other hand, using these Shortcuts is not free. Images will range from 0.5 to 1 cent with the regular model, and 1-2 cents with the latest one per description, so if this is a concern for you, stick with Be My Eyes.
 
 ## Can Sighted People Use This?
 
-Absolutely! While the documentation is written with VoiceOver users in mind, sighted users can easily customize the shortcuts to fit their needs. For example, you can adjust the AI prompt to add a personal touch, like "describe my memes in a snarky tone."
+Absolutely! While the documentation is written with VoiceOver users in mind, sighted users can easily customize the shortcuts to fit their needs. For example, you can adjust the system prompt to add a personal touch, like "describe my memes in a snarky tone."
 
-Only download Describe Photos though, as it's the only shortcut that works with the share sheet. During setup, pay special attention to the last two questions. These will undo some VoiceOver-specific changes, making the shortcuts easier for sighted users to use.
+Only download Describe Photos though, as it's the only shortcut that works with the share sheet. During setup, pay special attention to the fifth question. It will undo a VoiceOver-specific change, making the shortcuts easier for sighted users to use.
 
 ## Getting Started And Some Prerequisites
 
@@ -121,19 +124,19 @@ If you're already sick of setting things up, no worries! The only required quest
 
 #### Describe Screenshot
 
-Describe Screenshot allows you to take a screenshot on your iPhone, iPad, or Mac and within about 10 seconds, get a detailed description of its contents. This shortcut is particularly useful for VoiceOver users who may not be able to see the content of UI elements in inaccessible apps or games.
+Describe Screenshot allows you to take a screenshot on your iPhone, iPad, or Mac and within about 3-5 seconds, get a detailed description of its contents. This shortcut is particularly useful for VoiceOver users who may not be able to see the content of UI elements in inaccessible apps or games.
 
-Download Link: [Describe Screenshot](https://www.icloud.com/shortcuts/01a99ff2108e4d1791ace2213eae47c3)
+Download Link: [Describe Screenshot](https://www.icloud.com/shortcuts/f82fce2bbea54d92909d270127929fbe)
 
 #### Describe Photo
 
 Describe Photo works similarly to Describe Screenshot, but it allows you to either:
 
 1. Take a photo within the shortcut
-2. Share one or more photos with the shortcut with the share sheet (iOS, iPad OS and Vision OS) or quick actions (macOS.)
-3. Grab the most recent photo from your camera roll, intended for Apple Vision Pro and other glasses or headsets.
+2. Share one or more photos with the shortcut with the share sheet (iOS, iPad OS, Mac OS, and Vision OS) or quick actions (macOS.)
+3. Grab the most recent photo from your camera roll, intended for Apple Vision Pro and other glasses or headsets, or for those who prefer the functionality provided by the photos app.
 
-Download Link: [Describe Photo](https://www.icloud.com/shortcuts/66587eb787194abf870d7929489c07ea)
+Download Link: [Describe Photo](https://www.icloud.com/shortcuts/74ffbda2b0144be68f6c5404084a3ad9)
 
 ### Integrate the shortcuts with VoiceOver
 
@@ -331,6 +334,23 @@ That's it! You're now running the latest version of the shortcut. You don't need
 
 All changes to each Shortcut will be documented here.
 
+### 2024-09-29
+
+- [Download Describe Screenshot](https://www.icloud.com/shortcuts/f82fce2bbea54d92909d270127929fbe)
+- [Download Describe Photo](https://www.icloud.com/shortcuts/74ffbda2b0144be68f6c5404084a3ad9)
+
+#### New model!
+
+The shortcut now gives you the option to use OpenAI's ChatGPT-latest model, which is basically the same one you’ll find on the ChatGPT website. It’s currently much more detailed and conversational than the previous model, gpt-4o-2024-08-06. On the flip side, it’s a bit pricier, averaging around 1-2 cents per description. Just a heads-up: unlike the older model, this one can change as OpenAI updates things, so it might be awesome today and not-so-great next week. The default model will still be gpt-4o-2024-08-06, but if you want to give the new one a shot, just type 'y' in the second setup question. For what it’s worth, I’m using it and enjoying it a lot!
+
+#### Apple Vanquished the Dreaded Bug!
+
+The dynamic island bug that required us to open the Shortcuts app to operate the shortcuts has now been fixed. in iOS 18. Now, the dynamic island set up question defaults to being empty. If you are still on iOS 17 and on a phone with a dynamic island, you'll need to re-add the y to that question. Otherwise, rejoice, for we can now use Shortcuts the way the rest of the world does!
+
+#### One last thing!
+
+For those of you not using the alert box, the Quick Look view will now convert the AI's response to rich text. So if text is bold, italicized, or what have you, the box will correctly reflect that.
+
 ### 2024-09-17
 
 - [Download Describe Screenshot](https://www.icloud.com/shortcuts/01a99ff2108e4d1791ace2213eae47c3)
@@ -384,18 +404,6 @@ The Describe Photo shortcut will now allow you to share multiple images through 
 There's a really annoying issue with the Show Alert action these Shortcuts use to display descriptions. If the description is too long, the text visually cuts off and there's no way to read the rest. It doesn't affect us blind folks, but if you're sighted, you were out of luck!
 
 Now, both Shortcuts will ask you, as part of their set up questions, if you're sighted. If you indicate that you are, descriptions will be shown with a different box that will comfortably hold the entire description.
-
-## Updating The Shortcuts
-
-If you have an old version of either shortcut and would like to update to the latest version, the process is identical on iOS and macOS. Do the following:
-
-1. Click on the link to the shortcut you'd like to update.
-2. The Shortcuts app should open and show you the name and details for the Shortcut you clicked on. Tap Set Up Shortcut.
-3. You'll be asked the set up questions again. The only question you should have to answer again is the first one, which asks for your API key. Fill that in, then press "Skip setup."
-
-That's it! You're now running the latest version of the shortcut. You don't need to set up VoiceOver again.
-
-**Note**: If you adjusted other fields like the system prompt, you might have to adjust them again after updating. For this reason, I'd suggest saving prompts you write elsewhere in case an update clears them.
 
 ## Thanks
 
