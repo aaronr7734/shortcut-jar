@@ -40,6 +40,10 @@ title: Describe Images: AI-Powered Image Descriptions
     - [On macOS](#on-macos)
   - [Updating The Shortcuts](#updating-the-shortcuts)
   - [Changelog](#changelog)
+    - [2024-10-11](#2024-10-11)
+      - [Saving Cash With The Cache!](#saving-cash-with-the-cache)
+      - [Yet another new setting, oh no!](#yet-another-new-setting-oh-no)
+      - [Other Changes](#other-changes)
     - [2024-09-29](#2024-09-29)
       - [New model!](#new-model)
       - [Apple Vanquished the Dreaded Bug!](#apple-vanquished-the-dreaded-bug)
@@ -48,7 +52,7 @@ title: Describe Images: AI-Powered Image Descriptions
       - [Faster, Cheaper, and more reliable!](#faster-cheaper-and-more-reliable)
       - [Sharing screenshots and photos](#sharing-screenshots-and-photos)
       - [European Users, rejoice!](#european-users-rejoice)
-      - [Other changes](#other-changes)
+      - [Other changes](#other-changes-1)
     - [2024-05-24](#2024-05-24)
       - [Minor Bug Fix](#minor-bug-fix)
     - [2024-05-22](#2024-05-22)
@@ -61,8 +65,8 @@ title: Describe Images: AI-Powered Image Descriptions
 
 Already know what you're doing and would rather not read through this whole document? no worries! I won't get in your way!
 
-- [Download Describe Screenshot](https://www.icloud.com/shortcuts/f82fce2bbea54d92909d270127929fbe)
-- [Download Describe Photo](https://www.icloud.com/shortcuts/74ffbda2b0144be68f6c5404084a3ad9)
+- [Download Describe Screenshot](https://www.icloud.com/shortcuts/5394f77c9f0e463da7264c7eaaa6d398)
+- [Download Describe Photo](https://www.icloud.com/shortcuts/0a788f17242f48e08f2867101f9ef368)
 
 Just here to check for updates? [Jump Straight To The Changelog!](#changelog)
 
@@ -119,14 +123,15 @@ This one doesn't really need a section of its own, especially because the Shortc
 
 There are currently two Shortcuts. Both will be described and are accompanied by download links. You'll want to click on the download links with a device that already has the Shortcuts app installed. Clicking the link from Google Chrome on your windows laptop unfortunately won't work.
 
-After clicking the link, you'll be asked if you want to add them to Shortcuts. After adding them, you'll be walked through a bunch of set up questions.\
+After clicking the link, you'll be asked if you want to add them to Shortcuts. After adding them, you'll be walked through a bunch of set up questions.
+
 If you're already sick of setting things up, no worries! The only required question is the first one which asks for your API key. Fill that in then press "Skip setup." You can always come back to the other questions later.
 
 #### Describe Screenshot
 
 Describe Screenshot allows you to take a screenshot on your iPhone, iPad, or Mac and within about 3-5 seconds, get a detailed description of its contents. This shortcut is particularly useful for VoiceOver users who may not be able to see the content of UI elements in inaccessible apps or games.
 
-Download Link: [Describe Screenshot](https://www.icloud.com/shortcuts/f82fce2bbea54d92909d270127929fbe)
+Download Link: [Describe Screenshot](https://www.icloud.com/shortcuts/5394f77c9f0e463da7264c7eaaa6d398)
 
 #### Describe Photo
 
@@ -136,7 +141,7 @@ Describe Photo works similarly to Describe Screenshot, but it allows you to eith
 2. Share one or more photos with the shortcut with the share sheet (iOS, iPad OS, Mac OS, and Vision OS) or quick actions (macOS.)
 3. Grab the most recent photo from your camera roll, intended for Apple Vision Pro and other glasses or headsets, or for those who prefer the functionality provided by the photos app.
 
-Download Link: [Describe Photo](https://www.icloud.com/shortcuts/74ffbda2b0144be68f6c5404084a3ad9)
+Download Link: [Describe Photo](https://www.icloud.com/shortcuts/0a788f17242f48e08f2867101f9ef368)
 
 ### Integrate the shortcuts with VoiceOver
 
@@ -334,6 +339,27 @@ That's it! You're now running the latest version of the shortcut. You don't need
 
 All changes to each Shortcut will be documented here.
 
+### 2024-10-11
+
+- [Download Describe Screenshot](https://www.icloud.com/shortcuts/5394f77c9f0e463da7264c7eaaa6d398)
+- [Download Describe Photo](https://www.icloud.com/shortcuts/0a788f17242f48e08f2867101f9ef368)
+
+#### Saving Cash With The Cache!
+
+Recently, OpenAI introduced [Prompt Caching](https://openai.com/index/api-prompt-caching/) to their API. This is a feature that makes long conversations significantly cheaper than before, but only with the default model. This process happens automatically. The shortcut will now take caching into account when telling you how much a conversation costs.
+
+#### Yet another new setting, oh no!
+
+Now, the shortcut will copy the AI's responses to the clipboard. Seeing as not everyone will like this, there is a set up question to turn this behavior off. Happy copy and pasting!
+
+#### Other Changes
+
+- The default max_tokens parameter has been dropped to 1500 tokens. The newer model can't generate tokens quickly enough to pass this point before the Shortcut times out, and the default model can never manage to write even 1000 tokens.
+- Adjusted messaging slightly so when using the new model, the price is shown before the phrase telling you you're using the newer model.
+
+
+
+
 ### 2024-09-29
 
 - [Download Describe Screenshot](https://www.icloud.com/shortcuts/f82fce2bbea54d92909d270127929fbe)
@@ -349,7 +375,7 @@ The dynamic island bug that required us to open the Shortcuts app to operate the
 
 #### One last thing!
 
-For the two of you using the Quick Look view, it will now convert the AI's response to rich text. So if text is bold, italicized, or what have you, the box will correctly reflect that.
+For the two of you using the Quick Look view, it will now convert the AI's response to rich text. So if text is bold, italicized, or what have you, the   box will correctly reflect that.
 
 ### 2024-09-17
 
